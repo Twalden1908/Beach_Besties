@@ -9,6 +9,15 @@ cartInfo.addEventListener("click", function() {
 })
 })();
 
+//delete button
+(function(){
+  const clearBtn = document.getElementById("clear-cart");
+  clearBtn.addEventListener("click",function(){
+    this.remove(cart); 
+  } )
+
+});
+
 //add items to cart
 (function() {
 
